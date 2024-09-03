@@ -27,3 +27,16 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+:root {
+    --bg-image: url("https://unsplash.com/photos/various-colorful-sports-shoes-laid-on-sand-beach-background-studio-shot-flat-lay-ft2UhxkefwE");
+    --bg-color-gray: #ae9e9e;
+    --bg-image-shoes-1: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color-gray);
+    background-image: var(--bg-image-shoes-1);
+    background-size: cover;
+}
